@@ -58,12 +58,12 @@ public class Main {
         Scanner input = new Scanner(System.in);
 
         System.out.println("What is 1 + 1?");
-        System.out.println("a. 1, b. 2, c. 3");
+        System.out.println("a. 1, b. 2, c. 3,d. 4");
         int answer = input.nextInt();
         if (answer == 2) {
             System.out.println("Correct! Well done.");
             System.out.println("I had fun chatting with you!");
-        } else if (answer == 3 || answer == 1) {
+        } else if (answer == 3 || answer == 1 || answer == 4) {
             System.out.println("Wrong!");
             testQues();
         } else {
